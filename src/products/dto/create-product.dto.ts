@@ -43,5 +43,5 @@ export class CreateProductDto {
   @ApiProperty({ example: 2, description: 'ID of the category the product belongs to', required: false })
   @IsInt()
   @IsOptional()
-  category_id?: number;
+  category_id: number;
 }
